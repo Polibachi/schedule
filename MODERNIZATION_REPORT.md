@@ -103,7 +103,8 @@ Legacy-реалізація зосереджена в одному класі, �
 ## 6. ADR (Architectural Decision Record)
 
 Документ:  
-`docs/ADR-001-Repository-Layer.md`
+[docs/ADR-001-Repository-Layer.md](docs/ADR-001-Repository-Layer.md)
+
 
 Ключове рішення: винесення роботи з SQLite у Repository та ізоляція бізнес-логіки в Service.
 
