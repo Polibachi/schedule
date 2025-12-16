@@ -24,7 +24,7 @@
 
 ### 2.1 Before (Legacy)
 
-Файл: `before/ScheduleManagerLegacy.java`
+Файл: `before/ScheduleManager.java`
 
 ```java
 // BEFORE: "legacy" style, все змішано
