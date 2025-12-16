@@ -145,6 +145,8 @@
 \### 5.1 AS-IS (як було)
 
 \*\*\[INSERT DIAGRAM]\*\* `docs/as-is.png`  
+![AS-IS Architecture](docs/as-is.png)
+
 
 Коротко: логіка, UI, і доступ до SQLite змішані; сильна зв’язність (High Coupling).
 
