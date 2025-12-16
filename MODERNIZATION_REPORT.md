@@ -25,7 +25,8 @@
 Legacy-реалізація зосереджена в одному класі, який поєднує валідацію даних, бізнес-логіку та роботу з базою даних.
 
 Файл з legacy-кодом:  
-`before/ScheduleManagerLegacy.java`
+[before/ScheduleManagerLegacy.java](before/ScheduleManagerLegacy.java)
+
 
 ---
 
@@ -34,18 +35,19 @@ Legacy-реалізація зосереджена в одному класі, �
 Після рефакторингу відповідальності розділені між окремими шарами та класами.
 
 Доменні моделі:
-- `after/models/LessonSlot.java`
-- `after/models/LessonDraft.java`
+- [after/LessonSlot.java](after/models/LessonSlot.java)
+- [after/LessonDraft.java](after/models/LessonDraft.java)
 
 Обробка помилок:
-- `after/exceptions/ValidationException.java`
-- `after/exceptions/ConflictException.java`
+- [after/ValidationException.java](after/exceptions/ValidationException.java)
+- [after/ConflictException.java](after/exceptions/ConflictException.java)
 
 Доступ до даних:
-- `after/ScheduleRepository.java`
+- [after/ScheduleRepository.java](after/ScheduleRepository.java)
 
 Бізнес-логіка:
-- `after/ScheduleService.java`
+- [after/ScheduleService.java](after/ScheduleService.java)
+
 
 ---
 
